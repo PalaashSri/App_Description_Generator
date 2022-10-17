@@ -1,0 +1,1 @@
+This is the media folder that saves all the apk files that are downloaded.
