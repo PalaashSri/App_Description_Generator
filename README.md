@@ -15,9 +15,9 @@ This is the deep learning text transformer model developed by Suyu Ma (co-superv
 
 * Run `pip install -U Celery` to install Celery on to the system.
 
-* Intall Rabbitmq by following the process mentioned in: https://www.rabbitmq.com/install-windows.html
+* Install Rabbitmq by following the process mentioned in: https://www.rabbitmq.com/install-windows.html
 
-* After rabbitmq has been setup properly, go to the location where rabbitmq has been installed and go to the sbin folder using terminal. Example location on my desktop: "C:\Program Files\RabbitMQ Server\rabbitmq_server-3.11.0\sbin". When in this folder, using the terminal execute the following command `.\rabbitmq-server.bat start`. This will start the rabbitmq servers.
+* After rabbitmq has been setup properly, go to the location where rabbitmq has been installed and go to the sbin folder using the terminal. Example location on my desktop: "C:\Program Files\RabbitMQ Server\rabbitmq_server-3.11.0\sbin". When in this folder, using the terminal execute the following command `.\rabbitmq-server.bat start`. This will start the rabbitmq servers.
 
 * Then in the folder which contains this project run the following command `celery -A appExtractionSite worker -l info -E` to start celery worker. 
 
