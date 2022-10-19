@@ -22,3 +22,5 @@ This is the deep learning text transformer model developed by Suyu Ma (co-superv
 * Then in the folder which contains this project run the following command `celery -A appExtractionSite worker -l info -E` to start celery worker. 
 
 * Then run `python manage.py runserver` the following command to start the website server.  Visit the following link: http://127.0.0.1:8000/appUpload/ to view the website.
+
+<b> Note: </b> You might be required to generate Django secret key. Any Django secret key generator from the web can be used for this purpose. 
