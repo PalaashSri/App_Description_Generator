@@ -1,6 +1,6 @@
 # App_Description_Generator
 
-First deliverable of Honours Project: Website developed using Django that hosts automatic app description generation capability. The backend functionality is located at this python file appUpload/Backend/extract_apks.py. It contains the feature extraction code and sends the extracted tokens to the deep learning model to app description.
+First deliverable of Honours Project: Website developed using Django that hosts automatic app description generation capability. The backend functionality is located at this python file appUpload/Backend/extract_apks.py. It contains the feature extraction code and sends the extracted tokens to the deep learning model to generate app description.
 
 ![Figure3](https://user-images.githubusercontent.com/52162785/196105046-f561ed1f-037f-4680-b71d-b9fa0c432fdd.PNG)
 
